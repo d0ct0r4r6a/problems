@@ -1,0 +1,74 @@
+qr2
+
+1
+0
+IMPOSSIBLE
+1
+1
+OK
+1 1
+0 1
+OK
+0 0
+0 0
+IMPOSSIBLE
+0 0
+0 1
+IMPOSSIBLE
+0 1
+0 0
+IMPOSSIBLE
+1 0
+0 0
+IMPOSSIBLE
+0 0
+1 0
+IMPOSSIBLE
+1 0
+0 1
+IMPOSSIBLE
+1 1
+1 0
+OK
+1 2
+0 1
+IMPOSSIBLE
+1 2
+1 1
+OK
+2 2
+0 2
+OK
+2 2
+2 0
+OK
+1 1 0
+0 0 1
+IMPOSSIBLE
+1 1 1
+0 0 1
+OK
+
+
+
+
+
+
+c + m + y + k < 10^6 -> IMPOSSIBLE
+X find smallest possible c, m, y, k
+X find biggest possible c, m, y, k
+
+take c + m + y + k for printer 1
+if it's > 10^6 -> reduce c 
+find cmyk values for printer 1 that satisfies 10^6
+check if cmyk values are possible for printer 2 and 3
+if possible, that values are the answer
+if not, change the values by increasing c, decreasing m/y/k whichever can be decreased
+check if 
+
+qr1
+..+-+ // line 0
+..|.| // line 1
++-+-+ // line 2
+|.|.| // line 3
++-+-+ // line 4
