@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "solve": "cat $INIT_CWD/input.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js",
-    "check": "read input_no && cat $INIT_CWD/input$input_no.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js && cat $INIT_CWD/output.txt"
+    "solve_hr": "cat $INIT_CWD/input.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js",
+    "check_hr": "read input_no && cat $INIT_CWD/input$input_no.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js && cat $INIT_CWD/output.txt"
   },
   "repository": {
     "type": "git",
