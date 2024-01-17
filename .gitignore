@@ -2,3 +2,5 @@
 .vscode/
 .env
 node_modules/
+in.txt
+out.txt
