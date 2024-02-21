@@ -4,3 +4,4 @@
 node_modules/
 in.txt
 out.txt
+gen.py
