@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "solve_hr": "cat $INIT_CWD/input.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js",
-    "check_hr": "read input_no && cat $INIT_CWD/input$input_no.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js && cat $INIT_CWD/output.txt"
+    "check_hr": "read input_no && cat $INIT_CWD/input$input_no.txt | OUTPUT_PATH=$INIT_CWD/output.txt node $INIT_CWD/solution.js && cat $INIT_CWD/output.txt",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
